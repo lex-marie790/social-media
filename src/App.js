@@ -1,10 +1,13 @@
 
-import Login from './Components/Login/login.js'
+import Login from './Components/Login/login.js';
+import Register from './Components/Register/register.js';
+
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      {/* <Login /> */}
+      <Register />
     </div>
   );
 }
